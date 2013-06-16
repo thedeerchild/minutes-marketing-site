@@ -1,3 +1,4 @@
+@import "compass/css3";
 @import "settings";
 @import "normalize";
 @import "foundation";
@@ -40,3 +41,85 @@
 // @import "foundation/components/thumbs";
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
+
+$app-color: #66bfbb;
+
+.hero {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+
+	.header-img {
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+	.logo-hover {
+		background: rgba(#000, 0.65);
+		padding: 1.5em;
+		@include border-radius(5px);
+		
+		img {
+			width: 100%;
+		}
+
+		h1 {
+			font-size: 4em;
+			font-weight: 400;
+			text-align: center;
+			color: #ddd;
+			margin: 0;
+		}
+		h3 {
+			font-weight: 300;
+			text-align: center;
+			color: #ddd;
+			margin: 0;
+		}
+	}
+
+}
+
+.content {
+	min-height: 400px;
+	background: rgba(#000, 0.65);
+	position: relative;
+	z-index: 1;
+	
+	h1, h2, h3, h4, h5, h6, p {
+		font-weight: 300;
+		color: #ddd;
+	}
+
+	.row {
+		padding: 50px 0;
+	}
+
+
+}
+
+ul.features {
+	list-style: none;
+
+	li {
+		border: 2px solid #ddd;
+		@include border-radius(5px);
+		padding: 0.5em;
+		margin: 0.5em auto;
+
+		h3, p {
+			margin: 0;
+		}
+	}
+}
+
+ul.team {
+	img {
+		@include border-radius(50%);
+	}
+	h4, h6 {
+		text-align: center;
+	}
+}

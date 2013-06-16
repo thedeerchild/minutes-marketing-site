@@ -6660,3 +6660,96 @@ a.th {
 .f-dropdown.large {
   max-width: 800px;
 }
+
+/* line 47, ../sass/app.scss */
+.hero {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+/* line 53, ../sass/app.scss */
+.hero .header-img {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+/* line 59, ../sass/app.scss */
+.hero .logo-hover {
+  background: rgba(0, 0, 0, 0.65);
+  padding: 1.5em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 64, ../sass/app.scss */
+.hero .logo-hover img {
+  width: 100%;
+}
+/* line 68, ../sass/app.scss */
+.hero .logo-hover h1 {
+  font-size: 4em;
+  font-weight: 400;
+  text-align: center;
+  color: #ddd;
+  margin: 0;
+}
+/* line 75, ../sass/app.scss */
+.hero .logo-hover h3 {
+  font-weight: 300;
+  text-align: center;
+  color: #ddd;
+  margin: 0;
+}
+
+/* line 85, ../sass/app.scss */
+.content {
+  min-height: 400px;
+  background: rgba(0, 0, 0, 0.65);
+  position: relative;
+  z-index: 1;
+}
+/* line 91, ../sass/app.scss */
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p {
+  font-weight: 300;
+  color: #ddd;
+}
+/* line 96, ../sass/app.scss */
+.content .row {
+  padding: 50px 0;
+}
+
+/* line 103, ../sass/app.scss */
+ul.features {
+  list-style: none;
+}
+/* line 106, ../sass/app.scss */
+ul.features li {
+  border: 2px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em auto;
+}
+/* line 112, ../sass/app.scss */
+ul.features li h3, ul.features li p {
+  margin: 0;
+}
+
+/* line 119, ../sass/app.scss */
+ul.team img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 122, ../sass/app.scss */
+ul.team h4, ul.team h6 {
+  text-align: center;
+}
