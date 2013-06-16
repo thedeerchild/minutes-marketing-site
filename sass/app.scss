@@ -1,10 +1,5 @@
-// Global Foundation Settings
 @import "settings";
-
-// Comment out this import if you don't want to use normalize
 @import "normalize";
-
-// Comment out this import if you are customizing you imports below
 @import "foundation";
 
 // Import specific parts of Foundation by commenting the import "foundation"
@@ -45,7 +40,3 @@
 // @import "foundation/components/thumbs";
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
-
-a {
-	color: purple;
-}
